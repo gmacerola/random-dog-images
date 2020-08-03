@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+main {
+  margin-top: 0px;
+}
+
+form,
+.results {
+  text-align: center;
+}
+
+input {
+  min-width: 55px;
+}
+
+.hidden {
+  display: none;
+}
+
+.results-img {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.restart {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
